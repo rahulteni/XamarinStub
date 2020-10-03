@@ -1,0 +1,113 @@
+{
+  "format": 1,
+  "restore": {
+    "/Volumes/MyData/ASPL Stubs/Xamarin/XamarinStub/XamarinStub.Android/XamarinStub.Android.csproj": {}
+  },
+  "projects": {
+    "/Volumes/MyData/ASPL Stubs/Xamarin/XamarinStub/XamarinStub.Android/XamarinStub.Android.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Volumes/MyData/ASPL Stubs/Xamarin/XamarinStub/XamarinStub.Android/XamarinStub.Android.csproj",
+        "projectName": "XamarinStub.Android",
+        "projectPath": "/Volumes/MyData/ASPL Stubs/Xamarin/XamarinStub/XamarinStub.Android/XamarinStub.Android.csproj",
+        "packagesPath": "/Users/mac/.nuget/packages/",
+        "outputPath": "/Volumes/MyData/ASPL Stubs/Xamarin/XamarinStub/XamarinStub.Android/obj/",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "/Users/mac/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid90"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid90": {
+            "projectReferences": {
+              "/Volumes/MyData/ASPL Stubs/Xamarin/XamarinStub/XamarinStub/XamarinStub.csproj": {
+                "projectPath": "/Volumes/MyData/ASPL Stubs/Xamarin/XamarinStub/XamarinStub/XamarinStub.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid90": {
+          "dependencies": {
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.3.1, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[4.5.0.495, )"
+            }
+          }
+        }
+      }
+    },
+    "/Volumes/MyData/ASPL Stubs/Xamarin/XamarinStub/XamarinStub/XamarinStub.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Volumes/MyData/ASPL Stubs/Xamarin/XamarinStub/XamarinStub/XamarinStub.csproj",
+        "projectName": "XamarinStub",
+        "projectPath": "/Volumes/MyData/ASPL Stubs/Xamarin/XamarinStub/XamarinStub/XamarinStub.csproj",
+        "packagesPath": "/Users/mac/.nuget/packages/",
+        "outputPath": "/Volumes/MyData/ASPL Stubs/Xamarin/XamarinStub/XamarinStub/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/mac/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.3.1, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[4.5.0.495, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.300/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

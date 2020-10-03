@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinStub", "XamarinStub.csproj", "{A96CDCBA-1974-42A6-83E3-DD57AD658643}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A96CDCBA-1974-42A6-83E3-DD57AD658643}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A96CDCBA-1974-42A6-83E3-DD57AD658643}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A96CDCBA-1974-42A6-83E3-DD57AD658643}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A96CDCBA-1974-42A6-83E3-DD57AD658643}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
